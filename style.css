@@ -283,6 +283,23 @@ nav #close {
   padding: 2.5rem 0;
   grid-row-gap: 4rem;
 }
+.btn1 {
+  padding: 1.3rem 5rem;
+  margin: 3rem 0;
+  cursor: pointer;
+  color: var(--black);
+  font-size: 2rem;
+  font-weight: 500;
+  border: 0.3rem solid var(--font-heading);
+  border-radius: 7px;
+  background: none;
+  transition: all linear 0.5s;
+}
+
+.btn1:hover {
+  background-color: crimson;
+  transform: translate(0px, -3px);
+}
 
 .service .container .service-box {
   background: var(--white);

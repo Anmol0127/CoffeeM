@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="description"
+        content="Indian Mocha: Serving freshly brewed single estate coffee of Indian origin since 1964"
+    />
+    <meta
+        name="keywords"
+        content="Coffee, Cafe, Brew, Single Estate Coffee, Cafe"
+    />
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+    <link rel="stylesheet" href="static/styles.css">
+
+    <title>Menu Card</title>
+</head>
+<body class="lightThemeMask">
+    <div class="header" id="home">
+        <nav id="navbar">
+            <a href="./index.html" class="logo">Indian Mocha<span>.</span></a>
+            <div class="links" id="nav">
+                <a href="./index.html">Home</a>
+                <a href="#about">Order</a>
+            </div>
+            <div class="fas fa-bars" id="menu-btn" onclick="openmenu()"></div>
+            <div class="fa-solid fa-xmark" id="close" onclick="closemenu()"></div>
+        </nav>
+    </div> <br> <br> <br> <br> <br> <br>
+    <div class="menu-card">
+           <center><em><h2>Serving freshly brewed coffee</h2></em></center> 
+        </header>
+        <hr >
+        <button class="slide-arrow" id="slide-arrow-prev">
+            &#8249;&#8249;
+        </button>
+        <main>
+            <div id="page1">
+            <section>
+                <h2>
+                    Coffee
+                </h2>
+                <img class= "section-icons" src="static/images/coffee-section-icon.png" alt="Coffee sections" />
+
+                <article class="item"><p class="item-name">◈ Espresso (Single Shot)</p><p class="price">₹ 50</p></article>
+                <article class="item"><p class="item-name">◈ Espresso (Double Shot)</p><p class="price">₹ 80</p></article>
+                <article class="item"><p class="item-name">◈ Cappuccino</p><p class="price">₹ 110</p></article>
+                <article class="item"><p class="item-name">◈ Cafe Latte</p><p class="price">₹ 100</p></article>
+                <article class="item"><p class="item-name">◈ Americano</p><p class="price">₹ 80</p></article>
+                <article class="item"><p class="item-name">◈ Cafe macchiato</p><p class="price">₹ 120</p></article>
+                <article class="item"><p class="item-name">◈ Mocha Coffee</p><p class="price">₹ 120</p></article>
+                <article class="item"><p class="item-name">◈ Hazelnut Coffee Punch</p><p class="price">₹ 150</p></article>
+                <article class="item"><p class="item-name">◈ Cinnamon Coffee</p><p class="price">₹ 120</p></article>
+            </section>
+            <section>
+                <h2>
+                    Desserts
+                </h2>
+                <img class= "section-icons" src="static/images/cake-section-icon.png" alt="Desserts sections" />
+
+                <article class="item"><p class="item-name">◈ Apple Pie</p><p class="price">₹ 60</p></article>
+                <article class="item"><p class="item-name">◈ Chocochip Muffin</p><p class="price">₹ 40</p></article>
+                <article class="item"><p class="item-name">◈ Butter Muffins</p><p class="price">₹ 40</p></article>
+                <article class="item"><p class="item-name">◈ Banana Walnut Muffins</p><p class="price">₹ 60</p></article>
+            </section>
+            </div>
+
+            <div id="page2">
+                <section>
+                    <h2>
+                        Tea
+                    </h2>
+                    <img class= "section-icons" src="static/images/tea-section-icon.png" alt="Tea sections" />
+    
+                    <article class="item"><p class="item-name">◈ Makaibari Tea (Cup)</p><p class="price">₹ 60</p></article>
+                    <article class="item"><p class="item-name">◈ Makaibari Tea (Teapot)</p><p class="price">₹ 180</p></article>
+                    <article class="item"><p class="item-name">◈ Nilgiri Tea</p><p class="price">₹ 50</p></article>
+                    <article class="item"><p class="item-name">◈ Milk Tea</p><p class="price">₹ 60</p></article>
+                    <article class="item"><p class="item-name">◈ Lemon Tea</p><p class="price">₹ 60</p></article>
+                    <article class="item"><p class="item-name">◈ Honey Lemon Ginger Tea</p><p class="price">₹ 80</p></article>
+                </section>
+                <section>
+                    <h2>
+                        Mocktails & Cold Drinks
+                    </h2>
+                    <img class= "section-icons" src="static/images/mocktail-section-icon.png" alt="Mocktail & Drinks sections" />
+    
+                    <article class="item"><p class="item-name">◈ Blue Lagoon</p><p class="price">₹ 60</p></article>
+                    <article class="item"><p class="item-name">◈ Soda Shikanji</p><p class="price">₹ 40</p></article>
+                    <article class="item"><p class="item-name">◈ Masala Thumbs Up</p><p class="price">₹ 40</p></article>
+                    <article class="item"><p class="item-name">◈ Spiced Cranberry Juice</p><p class="price">₹ 60</p></article>
+                    <article class="item"><p class="item-name">◈ Spiced Orange Juice</p><p class="price">₹ 60</p></article>
+                    <article class="item"><p class="item-name">◈ Spiced Orange 
+                        scripJuice</p><p class="price">₹ 60</p></article>
+                    <article class="item"><p class="item-name">◈ Cold Drinks</p><p class="price">at MRP</p></article>
+                </section>
+            </div>
+
+            <div id="page3">
+                <section>
+                    <h2>
+                        Chocolates
+                    </h2>
+                    <img class= "section-icons" src="static/images/chocolate-section-icon.png" alt="Chocolate sections" />
+    
+                    <article class="item"><p class="item-name">◈ Espresso Bonbon</p><p class="price">₹ 50</p></article>
+                    <article class="item"><p class="item-name">◈ Strawberry Truffle</p><p class="price">₹ 50</p></article>
+                    <article class="item"><p class="item-name">◈ Orange Pips Truffle</p><p class="price">₹ 50</p></article>
+                    <article class="item"><p class="item-name">◈ Organic Dark Chocolate</p><p class="price">₹ 100</p></article>
+                    <article class="item"><p class="item-name">◈ Ecuador Chocolate Bar</p><p class="price">₹ 80</p></article>
+                    <article class="item"><p class="item-name">◈ Ecuador Chocolate Bar</p><p class="price">₹ 80</p></article>
+                    <article class="item"><p class="item-name">◈ Indian Origin Chocolate</p><p class="price">₹ 120</p></article>
+
+                </section>
+                <section>
+                    <h2>
+                        Pastries
+                    </h2>
+                    <img class= "section-icons" src="static/images/pastry-section-icon.png" alt="Pastries sections" />
+                    <article class="item"><p class="item-name">◈ Black Forest Slice</p><p class="price">₹ 60</p></article>
+                    <article class="item"><p class="item-name">◈ Choco Pyramid</p><p class="price">₹ 70</p></article>
+                    <article class="item"><p class="item-name">◈ Nutty Eclairs</p><p class="price">₹ 80</p></article>
+                    <article class="item"><p class="item-name">◈ Frosted Muffins</p><p class="price">₹ 60</p></article>
+                </section>
+            </div>
+    
+
+        </main>
+        <button class="slide-arrow" id="slide-arrow-next">
+            &#8250;&#8250;
+        </button>
+    </div>
+    <footer>
+        
+    </footer>
+    <div id="themeSwitcher"><img width="32px" src="static/images/contrast-icon.png" alt="Theme Switcher"></div>
+    <script src="static/scripts.js"></script>
+    <script src="./script.js"> </script>
+</body>
+</html>
